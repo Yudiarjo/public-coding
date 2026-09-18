@@ -1,107 +1,94 @@
-Website Sederhana
+# Website Sederhana
 
-Project website sederhana menggunakan HTML, CSS, dan JavaScript dengan struktur file yang terpisah agar lebih rapi dan mudah dikembangkan.
+Project website sederhana menggunakan **HTML, CSS, dan JavaScript**.
 
-📁 Struktur Folder
+## 📁 Struktur Folder
+
+```text
 project/
 ├── index.html
 ├── css/
 │   └── style.css
 └── js/
     └── script.js
+```
 
-🛠️ Teknologi
+## 🛠️ Teknologi
 
-HTML5 — struktur halaman
+- HTML5
+- CSS3
+- JavaScript
 
-CSS3 — tampilan dan desain
+## 🚀 Cara Menjalankan
 
-JavaScript — interaksi dan fungsionalitas
+1. Download atau clone repository.
+2. Buka folder project.
+3. Jalankan file `index.html` menggunakan browser.
 
-🚀 Cara Menjalankan
+Jika menggunakan **Visual Studio Code**, kamu juga bisa menggunakan **Live Server**.
 
-Clone atau download project ini.
+## 📄 Penjelasan File
 
-Buka folder project.
+### `index.html`
 
-Jalankan file index.html menggunakan browser.
+File utama yang digunakan untuk membuat struktur halaman website.
 
-Atau jika menggunakan Visual Studio Code, kamu dapat menggunakan ekstensi Live Server:
+CSS dihubungkan dengan:
 
-Buka folder project di Visual Studio Code.
-
-Klik kanan pada index.html.
-
-Pilih Open with Live Server.
-
-Website akan terbuka di browser.
-
-📄 Penjelasan File
-index.html
-
-File utama yang berisi struktur halaman website.
-
-CSS dihubungkan menggunakan:
-
+```html
 <link rel="stylesheet" href="css/style.css">
+```
 
+JavaScript dihubungkan dengan:
 
-JavaScript dihubungkan menggunakan:
-
+```html
 <script src="js/script.js"></script>
+```
 
-css/style.css
+### `css/style.css`
 
-Berisi kode untuk mengatur tampilan website seperti:
+File CSS digunakan untuk mengatur tampilan website, seperti:
 
-Warna
+- Warna
+- Font
+- Ukuran
+- Jarak
+- Layout
+- Button
+- Tampilan halaman
 
-Font
+### `js/script.js`
 
-Ukuran
-
-Spacing
-
-Button
-
-Layout
-
-Responsive design
-
-js/script.js
-
-Berisi kode JavaScript untuk memberikan interaksi pada website.
+File JavaScript digunakan untuk menambahkan interaksi dan fungsi pada website.
 
 Contoh:
 
+```javascript
 const tombol = document.getElementById("btnKlik");
 
 tombol.addEventListener("click", function () {
     alert("Tombol berhasil diklik!");
 });
+```
 
-🎯 Tujuan Project
+## 🎯 Tujuan
 
-Project ini dapat digunakan sebagai template dasar untuk belajar dan mengembangkan website menggunakan HTML, CSS, dan JavaScript.
+Project ini dibuat sebagai template dasar untuk belajar dan mengembangkan website menggunakan HTML, CSS, dan JavaScript.
 
-📌 Pengembangan Selanjutnya
+## 📌 Pengembangan Selanjutnya
 
 Beberapa fitur yang dapat ditambahkan:
 
-Responsive navigation
+- Responsive design
+- Navigation menu
+- Dark mode
+- Form kontak
+- Animasi
+- Validasi form
+- Local Storage
+- API
 
-Dark mode
+## 👨‍💻 Lisensi
 
-Form kontak
+Project ini bebas digunakan untuk pembelajaran dan pengembangan pribadi.
 
-Animasi CSS
-
-Validasi form dengan JavaScript
-
-Local Storage
-
-API integration
-
-👨‍💻 Lisensi
-
-Project ini bebas digunakan untuk keperluan belajar dan pengembangan pribadi.
